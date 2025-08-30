@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PrimeVend – Modern Vending Services</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Smart vending machines with contactless payments, 24/7 support, and customized products for schools, offices, gyms, and more." />
+  <meta property="og:title" content="PrimeVend – Modern Vending Services" />
+  <meta property="og:description" content="Contactless payments, 24/7 support, and tailored product selections. Bring a PrimeVend machine to your location." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="Graphics/primevend_logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Performance: preload hero image (path matches your CSS background reference) -->
+  <link rel="preload" as="image" href="StyleSheets/banner_image.jpg">
+
+  <!-- Favicon + CSS -->
+  <link rel="icon" href="Graphics/Icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="StyleSheets/styles.css" />
+
+  <!-- LocalBusiness structured data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"PrimeVend",
+    "image":"https://your-domain/Graphics/primevend_logo.png",
+    "url":"https://your-domain/",
+    "telephone":"+1-123-456-7890",
+    "address":{"@type":"PostalAddress","addressLocality":"Chicago","addressRegion":"IL","addressCountry":"US"},
+    "areaServed":"Chicago and suburbs"
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Accessibility: skip navigation -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header>
+    <div class="container header-container" role="navigation" aria-label="Primary">
+      <img src="Graphics/primevend_logo_transparent.png" alt="PrimeVend logo" class="logo">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="request.html">Request a Machine</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero" role="banner" aria-label="PrimeVend Hero">
+      <div class="container hero-inner">
+        <h1 class="hero-title">Modern Vending. Zero Hassle.</h1>
+        <p class="hero-subtitle">Smart machines, contactless payments, 24/7 support, and customized products—made for your space.</p>
+        <div class="hero-cta">
+          <a href="request.html" class="request-btn" aria-label="Request a vending machine">Get a Machine</a>
+          <a href="#machines" class="ghost-btn" aria-label="View our machines">See Our Machines</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MACHINES -->
+    <!-- MACHINES -->
+<section class="services" aria-labelledby="machines-title" id="machines">
+  <div class="container">
+    <h2 id="machines-title">Our Vending Machines</h2>
+
+    <div class="vm-grid">
+      <!-- Card 1 -->
+      <article class="vm-card">
+        <div class="vm-media">
+          <span class="vm-badge">Popular</span>
+          <picture>
+            <source srcset="Graphics/Combo Machine.webp" type="image/webp">
+            <img src="Graphics/Combo Machine.webp"
+                 alt="Modern combo vending machine"
+                 width="600" height="760" loading="lazy">
+          </picture>
+          <div class="vm-overlay"></div>
+        </div>
+        <div class="vm-body">
+          <h3 class="vm-title">Snack Machines</h3>
+          <p class="vm-sub">Perfect for schools & offices</p>
+          <ul class="vm-chips" aria-label="Key features">
+            <li>Cashless</li><li>Energy-Efficient</li><li>Smart Stocking</li>
+          </ul>
+          <a class="vm-cta" href="request.html" aria-label="Request a snack machine">Request this</a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="vm-card">
+        <div class="vm-media">
+          <span class="vm-badge vm-badge-blue">Best Value</span>
+          <picture>
+            <source srcset="Graphics/Drink machine.webp" type="image/webp">
+            <img src="Graphics/Drink machine.webp"
+                 alt="Cold drink vending machine with contactless payment"
+                 width="600" height="760" loading="lazy">
+          </picture>
+          <div class="vm-overlay"></div>
+        </div>
+        <div class="vm-body">
+          <h3 class="vm-title">Cold Drink Machines</h3>
+          <p class="vm-sub">Contactless, fast & reliable</p>
+          <ul class="vm-chips" aria-label="Key features">
+            <li>Tap-to-Pay</li><li>LED Lighting</li><li>Remote Monitoring</li>
+          </ul>
+          <a class="vm-cta" href="request.html" aria-label="Request a drink machine">Request this</a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="vm-card">
+        <div class="vm-media">
+          <span class="vm-badge vm-badge-dark">New</span>
+          <picture>
+            <source srcset="Graphics/Snack machine.jpg" type="image/jpeg">
+            <img src="Graphics/Snack machine.jpg"
+                 alt="Snack vending machine with assorted products"
+                 width="600" height="760" loading="lazy">
+          </picture>
+          <div class="vm-overlay"></div>
+        </div>
+        <div class="vm-body">
+          <h3 class="vm-title">Hot Beverage Machines</h3>
+          <p class="vm-sub">Great for lobbies & gyms</p>
+          <ul class="vm-chips" aria-label="Key features">
+            <li>Low Maintenance</li><li>High Capacity</li><li>Eco Mode</li>
+          </ul>
+          <a class="vm-cta" href="request.html" aria-label="Request a hot beverage machine">Request this</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+    <!-- FEATURES -->
+    <section class="features" aria-labelledby="why-us-title">
+      <div class="container">
+        <hr class="custom-hr" aria-hidden="true">
+        <h2 id="why-us-title">Why Choose Us?</h2>
+
+        <ul class="features-list">
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">💳</div>
+            <div class="div-main">Contactless Payment Options</div>
+            <div class="feature-detail">
+              Our machines support Apple Pay, Google Pay, and tap-to-pay credit cards for fast, hygienic transactions.
+            </div>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🛠️</div>
+            <div class="div-main">24/7 Support &amp; Maintenance</div>
+            <div class="feature-detail">
+              We monitor machines remotely and have technicians ready day and night to ensure uninterrupted service.
+            </div>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🧃</div>
+            <div class="div-main">Customized Product Selection</div>
+            <div class="feature-detail">
+              Choose what’s stocked in your machine based on your preferences and demand—we rotate inventory as needed.
+            </div>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🌿</div>
+            <div class="div-main">Eco-Friendly Machines</div>
+            <div class="feature-detail">
+              Energy-efficient machines with LED lighting; we support recyclable packaging where possible.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <!-- HOW IT WORKS -->
+<section class="how-it-works" aria-label="How it works">
+  <div class="container">
+    <h2 class="hiw-title">How It Works</h2>
+
+    <ol class="hiw-steps">
+      <!-- Step 1 -->
+      <li class="hiw-step">
+        <div class="hiw-card">
+          <div class="hiw-badge">1</div>
+          <div class="hiw-icon" aria-hidden="true">📝</div>
+          <h3 class="hiw-head">Request</h3>
+          <p class="hiw-text">Fill out our quick form to request a machine for your location. We’ll review and respond ASAP.</p>
+        </div>
+      </li>
+
+      <!-- Connector line (auto-hidden on wrap) -->
+      <li class="hiw-connector" aria-hidden="true"></li>
+
+      <!-- Step 2 -->
+      <li class="hiw-step">
+        <div class="hiw-card">
+          <div class="hiw-badge">2</div>
+          <div class="hiw-icon" aria-hidden="true">🚚</div>
+          <h3 class="hiw-head">Install</h3>
+          <p class="hiw-text">We deliver and set up your machine—no cost, no hassle. Placement and power handled by our team.</p>
+        </div>
+      </li>
+
+      <!-- Connector line -->
+      <li class="hiw-connector" aria-hidden="true"></li>
+
+      <!-- Step 3 -->
+      <li class="hiw-step">
+        <div class="hiw-card">
+          <div class="hiw-badge">3</div>
+          <div class="hiw-icon" aria-hidden="true">🔧</div>
+          <h3 class="hiw-head">Stock & Support</h3>
+          <p class="hiw-text">We stock products you prefer and provide 24/7 monitoring and maintenance.</p>
+        </div>
+      </li>
+    </ol>
+
+    <div class="hiw-cta">
+      <a href="request.html" class="request-btn" aria-label="Request a vending machine">Start Your Request</a>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- FAQ -->
+    <section class="faq" aria-labelledby="faq-title">
+      <div class="container" style="max-width:900px;">
+        <h2 id="faq-title" style="margin-bottom:1rem;">FAQs</h2>
+
+        <details><summary>How much does it cost?</summary>
+          <p style="padding:.5rem 0 0;">There’s no cost for installation or service—PrimeVend handles setup, stocking, and maintenance.</p>
+        </details>
+        <details><summary>Which payment methods are supported?</summary>
+          <p style="padding:.5rem 0 0;">Apple Pay, Google Pay, and all major tap-to-pay credit/debit cards.</p>
+        </details>
+        <details><summary>How quickly can we get a machine?</summary>
+          <p style="padding:.5rem 0 0;">Most installs are completed within 1–2 weeks after request approval.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="request-button-section" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <h3 id="cta-title">Ready to Get Started?</h3>
+        <p>Bring a PrimeVend machine to your location—no cost, no hassle.</p>
+        <a href="request.html" class="request-btn" aria-label="Request a vending machine from PrimeVend">Request Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 PrimeVend. All rights reserved.</p>
+      <p style="margin-top:6px;">
+        <a href="mailto:info@primevend.com" style="color:#fff; text-decoration:underline;">info@primevend.com</a> ·
+        <a href="request.html" style="color:#fff; text-decoration:underline;">Request a Machine</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Micro-interactions + sticky header + smooth scroll -->
+  <script>
+    // Sticky header shadow on scroll
+    const headerEl = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 6) headerEl.classList.add('header-scrolled');
+      else headerEl.classList.remove('header-scrolled');
+    });
+
+    // Smooth scroll for internal anchors
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
