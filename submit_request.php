@@ -64,7 +64,7 @@ if ($errors) {
 }
 
 // 6) Compose email
-$to       = 'info@primevend.com'; // TODO: change to your destination email
+$to       = 'contact@primevend.net'; // TODO: change to your destination email
 $subject  = 'New Vending Machine Request';
 $body = "A new vending request was submitted:\n\n"
       . "Name:           {$name}\n"
@@ -77,7 +77,7 @@ $body = "A new vending request was submitted:\n\n"
       . "\n---\nIP: {$ip}\nTime: " . date('c') . "\n";
 
 // Use a domain you control for From (prevents SPF/DMARC issues)
-$headers  = "From: PrimeVend Website <no-reply@primevend.com>\r\n";
+$headers  = "From: PrimeVend Website <no-reply@primevend.net>\r\n";
 $headers .= "Reply-To: {$email}\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
